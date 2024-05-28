@@ -6,7 +6,7 @@ networks:
 
 services:
   app:
-    image: nxofficial/gin-rush-template:latest
+    image: ccstudyhyc/gin-rush-template:latest
     container_name: gin-rush-template-app
     volumes:
         - ./config.yaml:/app/config/config.yaml
